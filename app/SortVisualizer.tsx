@@ -7,6 +7,7 @@ import { useState, useRef, useEffect } from "react";
 type AlgoKey = "bubble" | "selection" | "insertion" | "quick";
 type SortState = "comparing" | "swapping" | "done";
 type BtnMode = "go" | "pause" | "resume";
+type shit = "bruh";
 
 interface Step {
   arr: number[];
